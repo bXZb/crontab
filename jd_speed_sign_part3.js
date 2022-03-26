@@ -32,7 +32,7 @@ const JD_API_HOST = 'https://api.m.jd.com/', actCode = 'visa-card-001';
   let lnTotalAcc=cookiesArr.length;
   if (lnStartAcc>=lnTotalAcc){
 	  console.log(`账号太少不需要第三个任务,跳出\n`);
-	  return 
+	  return
   }
   console.log(`本次执行第${lnStartAcc+1}到${lnTotalAcc}个账号\n`);
   for (let i = lnStartAcc ; i < lnTotalAcc; i++) {
